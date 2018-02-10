@@ -10,7 +10,7 @@ namespace CertMSGA
 
 		static void Main(string[] args)
 		{
-			var response = string.Empty;
+			var response = "failure";
 			var keyFile = ConfigurationManager.AppSettings["keyFile"];
 			if(args[0].Equals("pbk"))
 			{
